@@ -25,24 +25,3 @@ var Pangram = function(input){
 
 module.exports = Pangram;
 
-
-// input.toLowerCase().match(/[a-z]/g)
-
-
-
-
-
-
-// var Pangram = function(input){
-
-// 	this.isPangram = function(){
-// 		var array = input.toLowerCase().split('');
-// 		if(!input){
-// 			return false
-// 		} else {
-// 			return array.includes(/[a-z]/g)
-// 		}
-
-// 	}
-
-// };
